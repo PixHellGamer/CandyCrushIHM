@@ -16,7 +16,7 @@ public class Plateau {
         // Génération aléatoire des bonbons
         for(int i = 0; i < hauteur; i++){
             for(int j = 0; j < largeur; j++){
-                plateau[i][j] = random.nextInt(5);
+                plateau[i][j] = random.nextInt(6);
             }
         }
     }
